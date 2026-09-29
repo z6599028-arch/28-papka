@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.continer {
+  width: 100%;
+  max-width: 1440;
+  margin: 0 auto;
+}
+.nav__wrapper {
+  display: flex;
+}
+.nav__ul {
+  display: flex;
+  gap: 50px;
+}
+.nav__ikon {
+  display: flex;
+  gap: 24px;
+}
+h1 {
+  font-size: 50px;
+
+  margin: 0px 0px 20px;
+}
+span {
+  color: rgb(240, 88, 12);
+}
+p {
+  font-size: 20px;
+  margin: 50px, 0px, 50px;
+  color: rgb(117, 116, 116);
+  margin: 0px 0px 20px;
+}
+.but__nav {
+  background-color: rgb(8, 0, 0);
+  color: #fcfbfb;
+  width: 140px;
+  height: 45px;
+  border-radius: 70px;
+  margin: 70px 0px 0px;
+  font-size: 20px;
+}
+.hero__wrappere {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+.bg__img {
+  background-image: url(/image\ 1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0px 0px 70px;
+}
+
+.kard {
+  background: #f6f4e888;
+  width: 340px;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.img__kard {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.but__kard {
+  width: 45px;
+  height: 45px;
+
+  border-radius: 50%;
+  border: 2px solid rgb(245, 128, 51);
+
+  background: #f57818;
+
+  font-size: 20px;
+}
+.manu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 100px 110px;
+}
+.footer__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+}
